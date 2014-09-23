@@ -1,0 +1,1638 @@
+/**
+ * Name: default.css
+ *
+ * The default color scheme for the template
+ *
+ */
+
+/* ==========================================================================
+   #Typography
+   ========================================================================== */
+
+body {
+    background-color: #fff;
+    color: #1f1f1f;
+}
+
+@media (max-width: 767px) {
+
+    body {
+        background-color: #fff;
+    }
+
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: #1f1f1f;
+}
+
+abbr[title] {
+    border-bottom: 1px dotted #d6d6d6;
+}
+
+blockquote span {
+    color: #999999;
+}
+
+hr {
+    border: solid #efefef;
+}
+
+code {
+    border: 1px solid #d6d6d6;
+    background-color: #f7f7f7;
+    color: #d14;
+}
+
+pre {
+    border: 1px solid #d6d6d6;
+    background-color: #f7f7f7;
+}
+
+.hr {
+    border-top: 1px solid #efefef;
+}
+
+.text-highlight {
+    color: #ff1350;
+}
+
+.mute {
+    color: #d6d6d6;
+}
+
+/* #Links
+   ========================================================================== */
+
+a,
+a:visited {
+    color: #ff1350;
+}
+
+a:active {
+    background: transparent;
+}
+
+/* #Tables
+   ========================================================================== */
+
+table {
+    background-color: transparent;
+}
+
+table th,
+table td {
+    border-top: 1px solid #d6d6d6;
+}
+
+table th {
+    background-color: #ff1350;
+    color: #fff;
+}
+
+/* #Forms
+   ========================================================================== */
+
+label span {
+    color: #ff0000;
+}
+
+input,
+textarea,
+select {
+    border: 1px solid #d6d6d6;
+    background: #fff;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+textarea:focus {
+    border-color: #cdcdcd;
+}
+
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+    color: #ccc;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+    color: #ccc;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #ccc;
+}
+
+/* #Misc
+   ========================================================================== */
+
+.javascript-required {
+    background-color: #f00;
+    color: #fff;
+}
+
+/* ==========================================================================
+   #Accordions
+   ========================================================================== */
+
+/* Accordion */
+
+.accordion-item-toggle {
+    border: 1px solid #d6d6d6;
+    color: #1f1f1f;
+}
+
+.accordion-item-toggle i {
+    background-color: #ff1350;
+    color: #fff;
+}
+
+.accordion-item-toggle:hover,
+.accordion-item-toggle.active {
+    border-color: #ff1350;
+    background-color: #ff1350;
+    color: #fff;
+}
+
+.accordion-item-toggle:hover i,
+.accordion-item-toggle.active i {
+    background-color: #fff;
+    color: #ff1350;
+}
+
+/* Toogle */
+
+.toggle-item-toggle {
+    border: 1px solid #d6d6d6;
+    color: #1f1f1f;
+}
+
+.toggle-item-toggle i {
+    background-color: #ff1350;
+    color: #fff;
+}
+
+.toggle-item-toggle:hover,
+.toggle-item-toggle.active {
+    border-color: #ff1350;
+    background-color: #ff1350;
+    color: #fff;
+}
+
+.toggle-item-toggle:hover i,
+.toggle-item-toggle.active i {
+    background-color: #fff;
+    color: #ff1350;
+}
+
+/* ==========================================================================
+   #Alerts
+   ========================================================================== */
+
+.alert {
+    border: 1px solid #d1d1d1;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    background-color: #f8f8f8;
+    color: #1f1f1f;
+}
+
+.alert.info {
+    border: 1px solid #86cde3;
+    background-color: #cce9f2;
+    color: #3194b1;
+}
+
+.alert.success {
+    border: 1px solid #b3cda1;
+    background-color: #d8f1c6;
+    color: #749958;
+}
+
+.alert.error {
+    border: 1px solid #e1a1a1;
+    background-color: #f9d9d9;
+    color: #b55454;
+}
+
+.alert.warning {
+    border: 1px solid #d1c9ae;
+    background-color: #fbf4dd;
+    color: #978c68;
+}
+
+/* ==========================================================================
+   #Back to top
+   ========================================================================== */
+
+#back-to-top {
+    background-color: #2b2b2b;
+    color: #fafafa;
+}
+
+#back-to-top:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#back-to-top:hover i {
+    color: #fff;
+}
+
+/* ==========================================================================
+   #Buttons
+   ========================================================================== */
+
+.btn {
+    border: 1px solid #ff1350;
+    background-color: #ff1350;
+    color: #fff;
+}
+
+a.btn {
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: #ff1350;
+}
+
+/* Buton Colors */
+
+.btn-white {
+    border: 1px solid #ff1350;
+    background-color: transparent;
+    color: #ff1350;
+}
+
+a.btn-white {
+    color: #ff1350;
+}
+
+.btn-white:hover {
+    border-color: #ff1350;
+    background-color: #ff1350;
+    color: #fff;
+}
+
+.btn-black,
+.btn-black:hover {
+    border-color: #2b2b2b;
+    background-color: #2b2b2b;
+    color: #fff;
+}
+
+a.btn-black {
+    color: #fff;
+}
+
+.btn-black:hover {
+    background-color: #4b4b4b;
+}
+
+/* ==========================================================================
+   #Callout Boxes
+   ========================================================================== */
+
+.callout-box {
+    background-color: #333;
+}
+
+.callout-box.bg-img {
+    color: #fff;
+}
+
+.callout-box.bg-pattern {
+    color: #fff;
+}
+
+.callout-box.bordered {
+    border: 1px solid #efefef;
+    background-color: #f5f5f5;
+}
+
+/* ==========================================================================
+   #Dividers
+   ========================================================================== */
+
+.divider.single-line {
+    border-top: 1px solid #d6d6d6;
+}
+
+.divider.double-line {
+    border-top: 4px double #d6d6d6;
+}
+
+.divider.single-dotted {
+    background: url("../../images/bg-single-dotted.gif") repeat-x top left;
+}
+
+.divider.double-dotted {
+    background: url("../../images/bg-double-dotted.gif") repeat-x top left;
+}
+
+/* ==========================================================================
+   #Fullwidth Section
+   ========================================================================== */
+
+.fullwidth-section {
+    background-color: #2b2b2b;
+    color: #fff;
+}
+
+.fullwidth-section a,
+.fullwidth-section h1 a,
+.fullwidth-section h2 a,
+.fullwidth-section h3 a,
+.fullwidth-section h4 a,
+.fullwidth-section h5 a,
+.fullwidth-section h6 a,
+.fullwidth-section .icon-box-5 i,
+.fullwidth-section .pie-chart i,
+.fullwidth-section .pie-chart .pie-chart-custom-text,
+.fullwidth-section .pie-chart .pie-chart-percent {
+    color: #fff;
+}
+
+.fullwidth-section .btn,
+.fullwidth-section .client-logos li:hover {
+    border-color: #fff;
+}
+
+.fullwidth-section .progress-bar {
+    border-color: #fff;
+    background-color: #fff;
+}
+
+.fullwidth-section .callout-box {
+    background-color: transparent;
+}
+
+.box {
+    background-color: rgba(255, 19, 80, 0.7);
+}
+
+/* Full width section backgrounds */
+
+#bg-1 {
+    background-color: #efefef;
+    color: #1f1f1f;
+}
+
+#bg-1 a {
+    color: #1f1f1f;
+}
+
+#bg-2 {
+    background-image: url("../../../_content/backgrounds/1920x1400.jpg");
+}
+
+#bg-3 {
+    background-color: #f4f4f4;
+}
+
+#bg-3 .client-logos li:hover {
+    border-color: #1f1f1f;
+}
+
+#bg-4 {
+    background-image: url("../../../_content/backgrounds/1920x1600.jpg");
+}
+
+#bg-5 {
+    background-image: url("../../../_content/backgrounds/1920x1000-1.jpg");
+}
+
+#bg-6 {
+    background-image: url("../../../_content/backgrounds/1920x1920.jpg");
+}
+
+#bg-7 {
+    background-image: url("../../../_content/backgrounds/1920x1000-2.jpg");
+    color: #1f1f1f;
+}
+
+#bg-8 {
+    background-image: url("../../../_content/backgrounds/1920x3000.jpg");
+}
+
+#bg-9 {
+    background-color: #efefef;
+    color: #1f1f1f;
+}
+
+/* ==========================================================================
+   #Icon Boxes
+   ========================================================================== */
+
+/* Icon Box 1
+   ========================================================================== */
+
+.icon-box-1 > i {
+    background-color: #ff1350;
+    color: #fff;
+}
+
+/* Icon Box 2
+   ========================================================================== */
+
+.icon-box-2 > i {
+    background-color: #ff1350;
+    color: #fff;
+}
+
+/* Icon Box 3
+   ========================================================================== */
+
+.icon-box-3 > i {
+    background-color: #ff1350;
+    color: #fff;
+}
+
+/* Icon Box 4
+   ========================================================================== */
+
+.icon-box-4 > i {
+    border: 1px solid #fff;
+    background-color: #ff1350;
+    color: #fff;
+}
+
+.icon-box-4 .icon-box-content {
+    border: 1px solid #d6d6d6;
+}
+
+/* Icon Box 5
+   ========================================================================== */
+
+.icon-box-5 {
+    background-color: #555;
+    color: #fff;
+}
+
+.icon-box-5 a {
+    color: #fff;
+}
+
+.icon-box-5:hover {
+    background-color: #ff1350;
+}
+
+/* Icon Box 5
+   ========================================================================== */
+
+.icon-box-6 {
+    border: 1px solid #d6d6d6;
+}
+
+.icon-box-6 > i {
+    background-color: #ff1350;
+    color: #fff;
+}
+
+.icon-box-6 .icon-box-content p a {
+    color: #1f1f1f;
+}
+
+.icon-box-6:hover {
+    border-color: #ff1350;
+}
+
+/* ==========================================================================
+   #Our Process
+   ========================================================================== */
+
+/* Horizontal Process Builder */
+
+.horizontal-process-builder:before {
+    border-top: 1px solid #ff1350;
+}
+
+.horizontal-process-builder li i,
+.horizontal-process-builder li h1 {
+    border: 1px solid #ff1350;
+    outline: 5px solid #fff;
+    background-color: #fff;
+    color: #ff1350;
+}
+
+.horizontal-process-builder li:hover i,
+.horizontal-process-builder li:hover h1 {
+    background-color: #ff1350;
+    color: #fff;
+}
+
+/* Vertical Process Builder */
+
+.vertical-process-builder li i,
+.vertical-process-builder li h2 {
+    border: 1px solid #ff1350;
+    color: #ff1350;
+}
+
+.vertical-process-builder li:hover i,
+.vertical-process-builder li:hover h2 {
+    background-color: #ff1350;
+    color: #fff;
+}
+
+/* ==========================================================================
+   #Pie charts
+   ========================================================================== */
+
+.pie-chart i,
+.pie-chart .pie-chart-custom-text,
+.pie-chart .pie-chart-percent {
+    color: #1f1f1f;
+}
+
+/* ==========================================================================
+   #Pricing Tables
+   ========================================================================== */
+
+.pricing-table {
+    border: 1px solid #d6d6d6;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.pricing-table-offer ul li {
+    border-top: 1px solid #d6d6d6;
+}
+
+.pricing-table:hover {
+    background-color: rgba(255, 19, 80, 0.7);
+}
+
+/* ==========================================================================
+   #ProgressBars
+   ========================================================================== */
+
+.progress-bar-description span {
+    background-color: #2b2b2b;
+    color: #fff;
+}
+
+.progress-bar-description span:after {
+    border-top: 9px solid #2b2b2b;
+    border-left: 15px solid transparent;
+
+}
+
+.progress-bar {
+    border: 2px solid #efefef;
+    background-color: #efefef;
+}
+
+.progress-bar .progress-bar-outer {
+    background-color: #ff1350;
+}
+
+/* ==========================================================================
+   #Service Box
+   ========================================================================== */
+
+.service-box {
+    border: 1px solid #d6d6d6;
+}
+
+/* ==========================================================================
+   #SocialMedia
+   ========================================================================== */
+
+a.social-icon {
+    color: #666;
+}
+
+a.social-icon:hover {
+    color: #fff;
+}
+
+a.facebook-icon:hover {
+    background-color: #0e59a0 !important;
+}
+
+a.twitter-icon:hover {
+    background-color: #0ea4ff !important;
+}
+
+a.dribble-icon:hover {
+    background-color: #ea73a0 !important;
+}
+
+a.pinterest-icon:hover {
+    background-color: #d73532 !important;
+}
+
+a.googleplus-icon:hover {
+    background-color: #282927 !important;
+}
+
+a.tumblr-icon:hover {
+    background-color: #586980 !important;
+}
+
+a.instagram-icon:hover {
+    background-color: #82685a !important;
+}
+
+a.rss-icon:hover {
+    background-color: #f79638 !important;
+}
+
+a.linkedin-icon:hover {
+    background-color: #018faf !important;
+}
+
+a.skype-icon:hover {
+    background-color: #00b0f6 !important;
+}
+
+a.flickr-icon:hover {
+    background-color: #0061db !important;
+}
+
+a.vimeo-icon:hover {
+    background-color: #63879c !important;
+}
+
+a.github-icon:hover {
+    background-color: #3b3b3b !important;
+}
+
+a.youtube-icon:hover {
+    background-color: #cc181e !important;
+}
+
+a.windows-icon:hover {
+    background-color: #6dc2e9 !important;
+}
+
+a.dropbox-icon:hover {
+    background-color: #007ee5 !important;
+}
+
+a.xing-icon:hover {
+    background-color: #026566 !important;
+}
+
+a.adn-icon:hover {
+    background-color: #1ea076 !important;
+}
+
+a.android-icon:hover {
+    background-color: #98cb02 !important;
+}
+
+a.apple-icon:hover {
+    background-color: #000000 !important;
+}
+
+a.behance-icon:hover {
+    background-color: #2d9ad2 !important;
+}
+
+a.bitbucket-icon:hover {
+    background-color: #214f81 !important;
+}
+
+a.bitcoin-icon:hover {
+    background-color: #f7931b !important;
+}
+
+a.codepan-icon:hover {
+    background-color: #000000 !important;
+}
+
+a.css3-icon:hover {
+    background-color: #3289ce !important;
+}
+
+a.delicious-icon:hover {
+    background-color: #3399fe !important;
+}
+
+a.deviantart-icon:hover {
+    background-color: #c8da30 !important;
+}
+
+a.digg-icon:hover {
+    background-color: #0080c2 !important;
+}
+
+a.drupal-icon:hover {
+    background-color: #0077b9 !important;
+}
+
+a.empire-icon:hover {
+    background-color: #000000 !important;
+}
+
+a.foursquare-icon:hover {
+    background-color: #daecb0 !important;
+}
+
+a.git-icon:hover {
+    background-color: #f34f29 !important;
+}
+
+a.gitti-icon:hover {
+    background-color: #634c3e !important;
+}
+
+a.hacker-news-icon:hover {
+    background-color: #f18642 !important;
+}
+
+a.html5-icon:hover {
+    background-color: #e54c1f !important;
+}
+
+a.joomla-icon:hover {
+    background-color: #016fb9 !important;
+}
+
+a.jsfiddle-icon:hover {
+    background-color: #4679a4 !important;
+}
+
+a.linux-icon:hover {
+    background-color: #fece0e !important;
+}
+
+a.maxcdn-icon:hover {
+    background-color: #f36f20 !important;
+}
+
+a.openid-icon:hover {
+    background-color: #fe6101 !important;
+}
+
+a.pagelines-icon:hover {
+    background-color: #3783e3 !important;
+}
+
+a.pied-piper-icon:hover {
+    background-color: #0c7b48 !important;
+}
+
+a.qq-icon:hover {
+    background-color: #23286c !important;
+}
+
+a.rebel-icon:hover {
+    background-color: #000000 !important;
+}
+
+a.reddit-icon:hover {
+    background-color: #cee3f8 !important;
+}
+
+a.renren-icon:hover {
+    background-color: #0d81e4 !important;
+}
+
+a.share-icon:hover {
+    background-color: #252525 !important;
+}
+
+a.slack-icon:hover {
+    background-color: #453744 !important;
+}
+
+a.soundcloud-icon:hover {
+    background-color: #fe4e00 !important;
+}
+
+a.spotify-icon:hover {
+    background-color: #80bb41 !important;
+}
+
+a.stack-exchange-icon:hover {
+    background-color: #265a93 !important;
+}
+
+a.stackoverflow-icon:hover {
+    background-color: #fea501 !important;
+}
+
+a.steam-icon:hover {
+    background-color: #191919 !important;
+}
+
+a.stumbleupon-icon:hover {
+    background-color: #f04f23 !important;
+}
+
+a.tencent-weibo-icon:hover {
+    background-color: #0063a7 !important;
+}
+
+a.trello-icon:hover {
+    background-color: #226784 !important;
+}
+
+a.vine-icon:hover {
+    background-color: #00b081 !important;
+}
+
+a.vk-icon:hover {
+    background-color: #50769d !important;
+}
+
+a.wechat-icon:hover {
+    background-color: #a4dc31 !important;
+}
+
+a.weibo-icon:hover {
+    background-color: #d82828 !important;
+}
+
+a.wordpress-icon:hover {
+    background-color: #454442 !important;
+}
+
+a.yahoo-icon:hover {
+    background-color: #4b04a8 !important;
+}
+
+/* ==========================================================================
+   #Styled Tables
+   ========================================================================== */
+
+.table-bordered {
+    border: 1px solid #d6d6d6;
+}
+
+.table-bordered th,
+.table-bordered td {
+    border-left: 1px solid #d6d6d6;
+}
+
+@media (max-width: 480px) {
+
+    tr {
+        border-top: 1px solid #555;
+    }
+
+}
+
+/* ==========================================================================
+   #Tabs
+   ========================================================================== */
+
+/* Horizontal tabs */
+
+.tabs-container .tabs-menu {
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.tabs-container .tabs-menu li a {
+    border: 1px solid #d6d6d6;
+    background-color: #fff;
+    color: #1f1f1f;
+}
+
+.tabs-container .tabs-menu li:first-child a {
+    border-left: 1px solid #d6d6d6;
+}
+
+.tabs-container .tabs-menu li.active a {
+    border-left: 1px solid #d6d6d6;
+    border-bottom-color: #fff;
+    background-color: #fff;
+    color: #666;
+}
+
+.tabs-container .tabs {
+    border: 1px solid #d6d6d6;
+    background-color: #fff;
+}
+
+.tabs-container .tab-content {
+    background-color: #fff;
+    color: #1f1f1f;
+}
+
+/* Vertical tabs */
+
+.vertical-tabs-container {
+    border: 1px solid #e7e7e7;
+    background-color: #f5f5f5;
+}
+
+.vertical-tabs-container .tabs-menu {
+    border-right: 1px solid #e7e7e7;
+}
+
+.vertical-tabs-container .tabs-menu li a {
+    border-right: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    color: #333;
+}
+
+.vertical-tabs-container .tabs-menu li.active a {
+    border-right-color: #fff;
+    background-color: #fff;
+}
+
+.vertical-tabs-container .tabs {
+    background-color: #fff;
+    color: #1f1f1f;
+}
+
+@media (max-width: 767px) {
+
+    .tabs-container .tabs-menu li a {
+        border: 1px solid #e7e7e7;
+    }
+
+    .tabs-container .tabs-menu li:first-child a {
+        border-top: 1px solid #e7e7e7;
+    }
+
+    .tabs-container .tabs-menu li.active a {
+        border-bottom-color: #555;
+        background-color: #fff;
+        color: #666;
+    }
+
+    .vertical-tabs-container .tabs-menu li.active a {
+        border-bottom-color: #333;
+    }
+
+}
+
+/* ==========================================================================
+   #Team Member
+   ========================================================================== */
+
+.team-member {
+    border: 1px solid #efefef;
+}
+
+/* ==========================================================================
+   #Testimonials
+   ========================================================================== */
+
+.testimonial blockquote {
+    border: 1px solid #d3d3d3;
+}
+
+.testimonial blockquote:after,
+.testimonial blockquote:before {
+    background-color: #ff1350;
+    color: #fff;
+}
+
+.testimonial img {
+    border: 1px solid #fff;
+}
+
+/* ==========================================================================
+   #Timeline
+   ========================================================================== */
+
+.separator:before {
+    border-left: 1px solid #d6d6d6;
+}
+
+.separator:after {
+    background-color: #ff1350;
+}
+
+.timeline .overlay {
+    background-color: rgba(255, 19, 80, 0.7);
+}
+
+.timeline .overlay a {
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+
+    .timeline li {
+        border-bottom: 1px solid #289ccb;
+    }
+
+}
+
+/* ==========================================================================
+   #Portfolio
+   ========================================================================== */
+
+/* Portfolio Item */
+
+.portfolio-item-overlay {
+    background-color: rgba(255, 19, 80, 0.7);
+}
+
+.portfolio-item-description {
+    color: #fff;
+}
+
+.portfolio-item-description .btn {
+    border-color: #fff;
+    color: #fff;
+}
+
+.portfolio-item-title {
+    color: #fff;
+}
+
+/* Portfolio item 2 */
+
+.portfolio-item-2 .portfolio-item-description {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.portfolio-item-2 .portfolio-item-description .btn-white {
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+
+    .portfolio-item-2 .portfolio-item-description,
+    .portfolio-item-2 .portfolio-item-description.right {
+        color: #1f1f1f;
+    }
+
+    .portfolio-item-2 .portfolio-item-description .btn-white {
+        border-color: #1f1f1f;
+        color: #1f1f1f;
+    }
+
+    .portfolio-item-2 .portfolio-item-description .btn-white:hover {
+        border-color: #ff1350;
+        color: #fff;
+    }
+
+}
+
+/* Portfolio Pagination */
+
+.pagination a {
+    background-color: #2b2b2b;
+    color: #fff;
+}
+
+.pagination li a:hover,
+.pagination li.current a {
+    background-color: #ff1350;
+}
+
+/* Portfolio filter */
+
+.portfolio-filter ul li a {
+    border: 1px solid #d6d6d6;
+    color: #1f1f1f;
+}
+
+.portfolio-filter ul li a:hover,
+.portfolio-filter ul li a.active {
+    border-color: #ff1350;
+    background-color: #ff1350;
+    color: #fff;
+}
+
+/* ==========================================================================
+   #Blog
+   ========================================================================== */
+
+.blog-post {
+    border: 1px solid #d6d6d6;
+}
+
+.blog-post-info {
+    background-color: #ff1350;
+}
+
+.blog-post-info h2 {
+    color: #fff;
+}
+
+.blog-post-title a {
+    color: #1f1f1f
+}
+
+.blog-post-title span {
+    background-color: #ff1350;
+    color: #fff;
+}
+
+.blog-post.alt .blog-post-info h1 {
+    color: #fff;
+}
+
+/* ==========================================================================
+   #Contact form
+   ========================================================================== */
+
+label.validation-error {
+    color: #b55454;
+}
+
+input.validation-error,
+textarea.validation-error,
+select.validation-error {
+    border: 1px solid #e1a1a1;
+}
+
+/* ==========================================================================
+   #WordPress Widgets
+   ========================================================================== */
+
+/* Search Widget */
+
+#searchsubmit {
+    background: url("../../images/bg-search.png") no-repeat center center;
+}
+
+/* Pages Widget */
+
+.widget_pages ul li a {
+    color: #1f1f1f;
+}
+
+.widget_pages ul li a:hover {
+    background-color: #ff1350;
+    color: #fff;
+}
+
+/* Archive Widget */
+
+.widget_archive ul li a {
+    color: #1f1f1f;
+}
+
+.widget_archive ul li a:hover {
+    background-color: #ff1350;
+    color: #fff;
+}
+
+/* Categories Widget */
+
+.widget_categories ul li a {
+    color: #1f1f1f;
+}
+
+.widget_categories ul li a:hover {
+    background-color: #ff1350;
+    color: #fff;
+}
+
+/* Meta Widget */
+
+.widget_meta ul li a {
+    color: #1f1f1f;
+}
+
+.widget_meta ul li a:hover {
+    background-color: #ff1350;
+    color: #fff;
+}
+
+/* Recent enteries widget  */
+
+.widget_recent_entries ul li a {
+    color: #1f1f1f;
+}
+
+/* Tag Cloud Widget  */
+
+.widget_tag_cloud a {
+    border: 1px solid #ff1350;
+}
+
+.widget_tag_cloud a:hover {
+    background-color: #ff1350;
+    color: #fff;
+}
+
+/* Navigation Widget */
+
+.ewf_widget_navigation li {
+    border-bottom: 1px solid #efefef;
+}
+
+.ewf_widget_navigation li a {
+    color: #222;
+}
+
+.ewf_widget_navigation li.current a {
+    color: #303030;
+}
+
+/* Twitter Widget */
+
+.ewf_widget_twitter {
+    background-color: #a5a5a5;
+    color: #fff;
+}
+
+.ewf_widget_twitter .widget-title {
+    color: #1f1f1f;
+}
+
+.ewf_widget_twitter a {
+    color: #fff;
+}
+
+/* Social Media Widget */
+
+.ewf_widget_social_media ul li i {
+    background-color: #ff1350;
+    color: #fff;
+}
+
+/* Contact Info Widget */
+
+.ewf_widget_contact_info ul li a {
+    color: #1f1f1f;
+}
+
+.fullwidth-section .ewf_widget_contact_info li i {
+    background-color: #ff1350;
+    color: #fff;
+}
+
+.fullwidth-section .ewf_widget_contact_info li a {
+    color: #fff;
+}
+
+/* Newsletter Subscribe Widget */
+
+#newsletter-subscribe-form input[type="text"] {
+    background-color: transparent;
+}
+
+/* ==========================================================================
+   #WordPress Comments
+   ========================================================================== */
+
+.comment-body {
+    border: 1px solid #d6d6d6;
+}
+
+.comment-body:before {
+    border-color: #d6d6d6 #d6d6d6 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+}
+
+.comment-body:after {
+    border-color: #fff #fff rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+}
+
+.commentlist .reply {
+}
+
+.commentlist .reply a {
+    border: 1px solid #ff1350;
+    background-color: #ff1350;
+    color: #fff;
+}
+
+.commentlist .reply a:hover {
+    background-color: #fff;
+    color: #1f1f1f;
+}
+
+.commentlist .vcard img.avatar {
+}
+
+.commentlist .vcard cite.fn a.url {
+    color: #1f1f1f;
+}
+
+.commentlist .commentmetadata a {
+    color: #1f1f1f;
+}
+
+@media (max-width: 767px) {
+
+    .comment-body:before {
+        border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #d6d6d6 #d6d6d6;
+    }
+
+    .comment-body:after {
+        border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #fff #fff;
+    }
+
+}
+
+/* ==========================================================================
+   #WordPress Comment Form
+   ========================================================================== */
+
+/* Submit button. */
+
+#commentform #submit {
+    border: 1px solid #ff1350;
+    background-color: #ff1350;
+    color: #fff;
+}
+
+#commentform #submit:hover {
+    background-color: #fff;
+    color: #1f1f1f;
+}
+
+/* ==========================================================================
+   #General Layout 
+   ========================================================================== */
+
+#wrap {
+    background-color: #fff;
+}
+
+@media (max-width: 767px) {
+
+    #wrap {
+        border-top: 5px solid #ff1350;
+    }
+}
+
+/* #Header
+   ========================================================================== */
+
+#header .ewf_widget_contact_info li i {
+    background-color: #ff1350;
+    color: #fff;
+}
+
+@media (min-width: 1024px) {
+
+    #header.stuck {
+        padding: 10px 0;
+        -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+        background: none repeat scroll 0 0 rgba(255, 255, 255, 0.95) !important;
+    }
+
+}
+
+/* Menu Skin */
+
+.sf-menu a {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    color: #1f1f1f;
+}
+
+.sf-menu > li > a,
+.sf-menu > li.dropdown > a {
+    color: #1f1f1f;
+}
+
+.sf-menu li.sfHover > a,
+.sf-menu a:hover,
+.sf-menu li.sfHover a:hover {
+    color: #ff1350;
+}
+
+.sf-menu li.dropdown ul {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.sf-menu li.dropdown ul li a {
+    color: #fff;
+}
+
+.sf-menu li.dropdown ul li a:hover {
+    color: #ff1350;
+}
+
+/* mega menu dropdown */
+
+.sf-mega {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.sf-mega-section {
+    border-right: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.sf-mega-section a {
+    color: #fff;
+}
+
+/* Mobile Menu  */
+
+#mobile-menu {
+    border-bottom: 1px solid #d6d6d6;
+}
+
+#mobile-menu .sf-mega {
+    background-color: #fff;
+}
+
+#mobile-menu .sf-mega-section a {
+    color: #1f1f1f;
+}
+
+#mobile-menu li a {
+    border-top: 1px solid #d6d6d6;
+    color: #1f1f1f;
+}
+
+#mobile-menu .mobile-menu-submenu-arrow {
+    border-left: 1px solid #d6d6d6;
+    color: #333;
+}
+
+#mobile-menu .mobile-menu-submenu-arrow:hover {
+    background-color: #ff1350;
+    color: #fff;
+}
+
+/* Search */
+
+#custom-search-form #custom-search-submit {
+    background: url("../../images/bg-search.png") no-repeat center center;
+}
+
+/* #Content
+   ========================================================================== */
+
+/* Page Header */
+
+#page-header {
+    background-color: #ccc;
+    color: #fff;
+}
+
+/* #Footer
+   ========================================================================== */
+
+#footer-top {
+    background: #ff1350 url("../../images/bg-footer-top.jpg") no-repeat center center;
+}
+
+#footer-top .btn {
+    border: 2px solid #1f1f1f;
+    background-color: transparent;
+    color: #1f1f1f;
+}
+
+#footer-top .btn:hover {
+    background-color: #1f1f1f;
+    color: #fff;
+}
+
+#footer-middle {
+    background-color: #2a2a2a;
+    color: #fff;
+}
+
+#footer-middle a {
+    color: #fff;
+}
+
+#footer-middle #newsletter-subscribe-form input[type="text"] {
+    color: #fff;
+}
+
+#footer-bottom {
+    background-color: #1f1f1f;
+    color: #fff;
+}
+
+#footer-bottom a {
+    color: #fff;
+}
+
+#footer-bottom .widget_pages ul li a:hover {
+    background-color: transparent;
+}
+
+/* #LOADER
+   ========================================================================== */
+
+.bx-wrapper .bx-loading {
+    background: url("../../js/bxslider/images/bx_loader.gif") center center no-repeat #fff;
+}
+
+/* #PAGER
+   ========================================================================== */
+
+.bx-wrapper .bx-pager {
+    color: #666;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+    background: #fff;
+}
+
+/* #DIRECTION CONTROLS (NEXT / PREV
+   ========================================================================== */
+
+.bx-wrapper .bx-prev {
+    background: url("../../images/left-2.png") no-repeat center center;
+}
+
+.bx-wrapper .bx-next {
+    background: url("../../images/right-2.png") no-repeat center center;
+}
+
+.bx-wrapper .bx-controls-direction a {
+    background-color: #ff1350;
+}
+
+.portfolio-item-slider-3 .bx-wrapper .bx-prev {
+    background: url("../../images/left-3.png") no-repeat center center;
+}
+
+.portfolio-item-slider-3 .bx-wrapper .bx-next {
+    background: url("../../images/right-3.png") no-repeat center center;
+}
+
+/* #AUTO CONTROLS (START / STOP)
+   ========================================================================== */
+
+.bx-wrapper .bx-controls-auto .bx-start {
+    background: url("../../js/bxslider/images/controls.png") -86px -11px no-repeat;
+}
+
+.bx-wrapper .bx-controls-auto .bx-stop {
+    background: url("../../js/bxslider/images/controls.png") -86px -44px no-repeat;
+}
+
+/* #IMAGE CAPTIONS
+   ========================================================================== */
+
+.bx-wrapper .bx-caption {
+    background: rgba(80, 80, 80, 0.75);
+}
+
+.bx-wrapper .bx-caption span {
+    color: #fff;
+}
+
+/* #SLIDE TEXT
+   ========================================================================== */
+
+.slidetext {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.slidetext .btn {
+    border-color: #fff;
+    color: #fff;
+}
+
+.portfolio-item-slider-2 {
+    margin-top: 40px;
+}
+
+#slider-next,
+#slider-prev {
+    background-color: #2b2b2b;
+}
+
+.caption span {
+    color: #ff1350;
+}
+
+.caption .btn {
+    color: #fff;
+}
+
+.caption .btn:hover {
+    color: #fff;
+}
+
+.caption.title-2 {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+
+.caption.letter {
+    color: #fff;
+}
+
+.tp-bullets.simplebullets.round .bullet {
+    background: #2b2b2b;
+}
+
+.tp-bullets.simplebullets.round .bullet.selected {
+    background-color: #ff1350;
+}
+
+.tp-leftarrow.default {
+    background: #2b2b2b url("../../images/left.png") no-repeat center center;
+}
+
+.tp-rightarrow.default {
+    background: #2b2b2b url("../../images/right.png") no-repeat center center;
+}

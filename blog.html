@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1,requiresActiveX=true">
+
+
+    <title> Blog :: MIRROR Architecture </title>
+    <meta name="description" content=" add description  ... ">
+
+    <!-- /// Favicons ////////  -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="favicon.png">
+
+
+    <!-- /// Google Fonts ////////  -->
+    <link rel="stylesheet"
+          href="http://fonts.googleapis.com/css?family=Open+Sans:400,300italic,400italic,700,700italic">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic">
+
+    <!-- /// FontAwesome Icons 4.1.0 ////////  -->
+    <link rel="stylesheet" href="_layout/css/fontawesome/font-awesome.min.css">
+
+    <!-- /// Custom Icon Font ////////  -->
+    <link rel="stylesheet" href="_layout/css/iconfontcustom/icon-font-custom.css">
+
+    <!-- /// Template CSS ////////  -->
+    <link rel="stylesheet" href="_layout/css/base.css">
+    <link rel="stylesheet" href="_layout/css/grid.css">
+    <link rel="stylesheet" href="_layout/css/layout.css">
+    <link rel="stylesheet" href="_layout/css/elements.css">
+
+    <!-- /// Boxed layout ////////  -->
+    <!-- <link rel="stylesheet" href="_layout/css/boxed.css"> -->
+
+    <!-- /// JS Plugins CSS ////////  -->
+    <link rel="stylesheet" href="_layout/js/revolutionslider/css/settings.css">
+    <link rel="stylesheet" href="_layout/js/revolutionslider/css/custom.css">
+    <link rel="stylesheet" href="_layout/js/bxslider/jquery.bxslider.css">
+    <link rel="stylesheet" href="_layout/js/magnificpopup/magnific-popup.css">
+    <link rel="stylesheet" href="_layout/js/animations/animate.min.css">
+    <link rel="stylesheet" href="_layout/js/itplayer/css/YTPlayer.css">
+
+    <!-- /// Template Skin CSS ////////  -->
+    <!-- <link rel="stylesheet" href="_layout/css/skins/default.css"> -->
+    <!-- <link rel="stylesheet" href="_layout/css/skins/red.css"> -->
+    <!-- <link rel="stylesheet" href="_layout/css/skins/orange.css"> -->
+    <!-- <link rel="stylesheet" href="_layout/css/skins/turquoise.css"> -->
+    <!-- <link rel="stylesheet" href="_layout/css/skins/green.css"> -->
+    <!-- <link rel="stylesheet" href="_layout/css/skins/pink.css"> -->
+
+    <!-- /// Style Switcher CSS ////////  -->
+    <link rel="stylesheet" href="_layout/css/wide.css" id="template-layout">
+    <link rel="stylesheet" href="_layout/css/skins/default.css" id="template-skin">
+    <link rel="stylesheet" href="_layout/js/switcher/switcher.css">
+
+</head>
+<body>
+
+<!-- Style Switcher read settings for layout and skin -->
+<script src="_layout/js/switcher/readcookies.js"></script>
+
+<div id="wrap">
+
+<div id="header">
+
+    <!-- /// HEADER  //////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <div id="header-top">
+
+        <!-- /// HEADER TOP   /////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+        <div class="row">
+            <div class="span3">
+
+                <!-- // Logo // -->
+                <a href="index.html" id="logo">
+                    <img class="responsive-img" src="_layout/images/logo.png" alt="">
+                </a>
+
+            </div>
+            <!-- end .span3 -->
+            <div class="span6" id="header-top-widget-area-1">
+
+                <div class="widget ewf_widget_social_media">
+
+                    <h3 class="widget-title">Connect with us socialy!</h3>
+
+                    <a class="youtube-icon social-icon" href="blog.html#">
+                        <i class="fa fa-youtube-play"></i>
+                    </a>
+
+                    <a class="wordpress-icon social-icon" href="blog.html#">
+                        <i class="fa fa-wordpress"></i>
+                    </a>
+
+                    <a class="googleplus-icon social-icon" href="blog.html#">
+                        <i class="fa fa-google-plus"></i>
+                    </a>
+
+                    <a class="twitter-icon social-icon" href="blog.html#">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+
+                    <a class="facebook-icon social-icon" href="blog.html#">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+
+                </div>
+                <!-- end .ewf_widget_social_media -->
+
+            </div>
+            <!-- end .span6 -->
+            <div class="span3" id="header-top-widget-area-2">
+
+                <div class="widget widget_search">
+
+                    <form action="#" class="searchform" id="searchform" method="get" name="searchform">
+                        <div>
+                            <label class="screen-reader-text" for="s">Search for:</label>
+                            <input id="s" name="s" type="text" placeholder="enter keyword here">
+                            <input id="searchsubmit" type="submit" value="">
+                        </div>
+                    </form>
+
+                </div>
+                <!-- end .widget_search -->
+
+            </div>
+            <!-- end .span3 -->
+        </div>
+        <!-- end .row -->
+
+        <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    </div>
+    <!-- end #header-top -->
+
+    <div class="row">
+        <div class="span4" id="header-widget-area-1">
+
+            <div class="widget ewf_widget_contact_info">
+
+                <ul>
+                    <li>
+                        <i class="ifc-phone1"></i>
+                        1800-222-222
+                    </li>
+                    <li>
+                        <i class="ifc-message"></i>
+                        <a href="mailto:#">office@mirror.com</a>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- end .ewf_widget_contact_info -->
+
+        </div>
+        <!-- end .span4 -->
+        <div class="span8">
+
+            <a href="blog.html#" id="mobile-menu-trigger">
+                <i class="fa fa-bars"></i>
+            </a>
+
+            <!-- // Menu // -->
+            <ul class="sf-menu fixed" id="menu">
+                <li>
+                    <a href="index.html">
+                        <i class="ifc-home"></i>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="about-us.html">
+                        <i class="ifc-group"></i>
+                        About us
+                    </a>
+                </li>
+                <li class="dropdown">
+                    <a href="services.html">
+                        <i class="ifc-settings3"></i>
+                        Services
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="services.html">
+                                <i class="ifc-settings3"></i>
+                                Services
+                            </a>
+                        </li>
+                        <li>
+                            <a href="single-service.html">
+                                <i class="ifc-settings"></i>
+                                Single service
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="portfolio.html">
+                        <i class="ifc-photo"></i>
+                        Portfolio
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="portfolio.html">
+                                <i class="ifc-photo"></i>
+                                Portfolio
+                            </a>
+                        </li>
+                        <li>
+                            <a href="portfolio-item.html">
+                                <i class="ifc-gallery"></i>
+                                Portfolio item
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="current dropdown">
+                    <a href="blog.html">
+                        <i class="ifc-ball_point_pen"></i>
+                        Blog
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="blog.html">
+                                <i class="ifc-ball_point_pen"></i>
+                                Blog
+                            </a>
+                        </li>
+                        <li>
+                            <a href="blog-post.html">
+                                <i class="ifc-edit"></i>
+                                Blog post
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="contact.html">
+                        <i class="ifc-map_marker"></i>
+                        Contact
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+        <!-- end .span8 -->
+    </div>
+    <!-- end .row -->
+
+    <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+</div>
+<!-- end #header -->
+<div id="content">
+
+<!-- /// CONTENT  /////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+<div id="page-header">
+
+    <div class="row">
+        <div class="span12">
+
+            <h3>Blog.</h3>
+
+        </div>
+        <!-- end .span12 -->
+    </div>
+    <!-- end .row -->
+
+</div>
+<!-- end #page-header -->
+
+<div class="row">
+<div class="span8">
+
+    <div class="blog-post alt">
+
+        <div class="blog-post-thumb">
+
+            <img src="_content/blog/770x380-1.png" alt="">
+
+        </div>
+        <!-- end .blog-post-thumb -->
+
+        <div class="blog-post-info">
+
+            <h1>
+                18<br>
+                <small>Jul</small>
+            </h1>
+
+        </div>
+        <!-- end .blog-post-info -->
+
+        <div class="blog-post-title">
+
+            <h1>
+                <strong><a href="blog-post.html">Donec ultricies leo odio, vel est adipiscing.</a></strong>
+            </h1>
+
+            <p>
+                by
+                <strong><a href="blog.html#">Admin</a></strong>
+                on 18 July 2014 <br>
+                <span>8</span>
+                <a href="blog.html#">comments</a>
+            </p>
+
+        </div>
+        <!-- end .blog-post-title -->
+
+        <p>Pellentesque nec blandit lacus. Vestibulum imperdiet tellus eget nulla consectetur, consequat
+            sem sollicitudin. Nunc eget rhoncus est, tincidunt leo. Aliquam blandit, massa id sollicitudin
+            sollicitudin, lacus turpis condimentum sem, ac suscipit mi et sem. Maecenas dictum urna ut tempor
+            dictum. In hac habitasse platea dictumst feugiat nunc elit, non luctus magna laoreet eget. Interdum
+            et malesuada. </p>
+
+        <a class="btn text-uppercase" href="blog-post.html"><strong>Read More</strong></a>
+
+    </div>
+    <!-- end .blog-post -->
+
+    <div class="blog-post alt">
+
+        <div class="blog-post-thumb">
+
+            <img src="_content/blog/770x380-2.png" alt="">
+
+        </div>
+        <!-- end .blog-post-thumb -->
+
+        <div class="blog-post-info">
+
+            <h1>
+                16<br>
+                <small>Jul</small>
+            </h1>
+
+        </div>
+        <!-- end .blog-post-info -->
+
+        <div class="blog-post-title">
+
+            <h1>
+                <strong><a href="blog-post.html">Mauris laoreet libero sed vitae mi ultrices.</a></strong>
+            </h1>
+
+            <p>
+                by
+                <strong><a href="blog.html#">Admin</a></strong>
+                on 16 July 2014 <br>
+                <span>3</span>
+                <a href="blog.html#">comments</a>
+            </p>
+
+        </div>
+        <!-- end .blog-post-title -->
+
+        <p>Sed ut mollis massa. Mauris elementum lorem vel augue posuere venenatis. Curabitur tempus fermentum
+            magna, quis posuere libero. </p>
+
+        <p>
+            <strong>Nam enim turpis, rutrum nec sem sit amet, aliquet rutrum magna.</strong>
+            Sed scelerisque volutpat metus, vitae imperdiet erat molestie sed. habitasse platea dictumst feugiat
+            nunc elit ipsum metus, laoreet at quam error omis dolor sit amet.
+        </p>
+
+        <a class="btn text-uppercase" href="blog-post.html"><strong>Read More</strong></a>
+
+    </div>
+    <!-- end .blog-post -->
+
+    <div class="blog-post alt">
+
+        <div class="blog-post-thumb">
+
+            <img src="_content/blog/770x380-3.png" alt="">
+
+        </div>
+        <!-- end .blog-post-thumb -->
+
+        <div class="blog-post-info">
+
+            <h1>
+                10<br>
+                <small>Jul</small>
+            </h1>
+
+        </div>
+        <!-- end .blog-post-info -->
+
+        <div class="blog-post-title">
+
+            <h1>
+                <strong><a href="blog-post.html">Lorem ipsum dolor sit amet, consectetur.</a></strong>
+            </h1>
+
+            <p>
+                by
+                <strong><a href="blog.html#">Admin</a></strong>
+                on 10 July 2014 <br>
+                <span>5</span>
+                <a href="blog.html#">comments</a>
+            </p>
+
+        </div>
+        <!-- end .blog-post-title -->
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dui lacus, viverra in semper non, varius
+            quis lectus. Suspendisse volutpat imperdiet luctus. Aliquam erat volutpat. Proin ipsum metus, laoreet at
+            quam
+            malesuada, suscipit ullamcorper massa. Praesent a velit nisl. Nullam pretium nisl sit amet commodo suscipit.
+            Mauris a commodo sapien lorem ispum dolor sit amet error omis vitae.</p>
+
+        <a class="btn text-uppercase" href="blog-post.html"><strong>Read More</strong></a>
+
+    </div>
+    <!-- end .blog-post -->
+
+</div>
+<!-- end .span8 -->
+<div class="span4">
+
+    <div class="widget widget_search">
+
+        <form action="#" class="searchform" id="searchform" method="get" name="searchform">
+            <div>
+                <label class="screen-reader-text" for="s">Search for:</label>
+                <input id="s" name="s" type="text" placeholder="enter keyword here...">
+                <input id="searchsubmit" type="submit" value="">
+            </div>
+        </form>
+
+    </div>
+    <!-- end .widget_search -->
+
+    <div class="widget widget_categories">
+
+        <h3 class="widget-title">Categories</h3>
+
+        <ul>
+            <li class="cat-item">
+                <a href="blog.html#" title="View all posts filed under All Posts">All Posts</a>
+            </li>
+            <li class="cat-item">
+                <a href="blog.html#" title="View all posts filed under General">General</a>
+            </li>
+            <li class="cat-item">
+                <a href="blog.html#" title="View all posts filed under Tutorials">Tutorials</a>
+            </li>
+            <li class="cat-item">
+                <a href="blog.html#" title="View all posts filed under Typography">Typography</a>
+            </li>
+            <li class="cat-item">
+                <a href="blog.html#" title="View all posts filed under Usefull Knowledge">Usefull Knowledge</a>
+            </li>
+            <li class="cat-item">
+                <a href="blog.html#" title="View all posts filed under Photography">Photography</a>
+            </li>
+        </ul>
+
+    </div>
+    <!-- end .widget_categories -->
+
+    <div class="widget widget_tag_cloud">
+
+        <h3 class="widget-title">Tags</h3>
+
+        <div class="tagcloud">
+            <a class="tag-link-1" title="1 topic" href="blog.html#">photography</a>
+            <a class="tag-link-2" title="2 topic" href="blog.html#">design</a>
+            <a class="tag-link-3" title="3 topic" href="blog.html#">animation</a>
+            <a class="tag-link-4" title="4 topic" href="blog.html#">logo</a>
+            <a class="tag-link-5" title="5 topic" href="blog.html#">html5</a>
+            <a class="tag-link-6" title="6 topic" href="blog.html#">templates</a>
+            <a class="tag-link-7" title="7 topic" href="blog.html#">ui design</a>
+            <a class="tag-link-8" title="8 topic" href="blog.html#">typography</a>
+            <a class="tag-link-9" title="9 topic" href="blog.html#">stock photography</a>
+            <a class="tag-link-10" title="10 topic" href="blog.html#">wordpress</a>
+        </div>
+
+    </div>
+    <!-- end .widget_tag_cloud -->
+
+    <div class="widget ewf_widget_twitter">
+
+        <h3 class="widget-title">Twitter Feed</h3>
+
+        <i class="fa fa-twitter"></i>
+
+        <p><a href="blog.html#">@mirror</a></p>
+
+        <div id="tweet"></div>
+        <!-- end #tweet -->
+
+    </div>
+    <!-- end .ewf_widget_twitter-->
+
+    <div class="widget widget_recent_entries">
+
+        <h3 class="widget-title">Popular Posts</h3>
+
+        <ul>
+            <li>
+
+                <img src="_content/blog-post/70x70-1.png" alt="">
+
+                <p>
+                    <a href="blog.html#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+                    <br>
+                    <small>by <a href="blog.html#"><strong>Admin</strong></a> on 18 July, 2014</small>
+                </p>
+
+            </li>
+            <li>
+
+                <img src="_content/blog-post/70x70-2.png" alt="">
+
+                <p>
+                    <a href="blog.html#">Maecenas et libero dolor, congue dui eget, cursus est.</a>
+                    <br>
+                    <small>by <a href="blog.html#"><strong>Jessica</strong></a> on 16 July, 2014</small>
+                </p>
+
+            </li>
+            <li>
+
+                <img src="_content/blog-post/70x70-3.png" alt="">
+
+                <p>
+                    <a href="blog.html#">Praesent ultrices dignissim neque, non sodales sem.</a>
+                    <br>
+                    <small>by <a href="blog.html#"><strong>John Doe</strong></a> on 10 July, 2014</small>
+                </p>
+
+            </li>
+        </ul>
+
+    </div>
+    <!-- end .widget_recent_entries -->
+
+</div>
+<!-- end .span4 -->
+</div>
+<!-- end .row -->
+
+<div class="row">
+    <div class="span12">
+
+        <ul class="pagination fixed">
+            <li class="current">
+                <a href="blog.html#">1</a>
+            </li>
+            <li>
+                <a href="blog.html#">2</a>
+            </li>
+            <li>
+                <a href="blog.html#">3</a>
+            </li>
+            <li>
+                <a href="blog.html#">4</a>
+            </li>
+            <li>
+                <a href="blog.html#">5</a>
+            </li>
+            <li>
+                <a href="blog.html#">&gt;</a>
+            </li>
+        </ul>
+        <!-- end .pagination -->
+
+    </div>
+    <!-- end .span12 -->
+</div>
+<!-- end .row -->
+
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+</div>
+<!-- end #content -->
+<div id="footer">
+
+<!-- /// FOOTER     ///////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+<div id="footer-top">
+
+    <!-- /// FOOTER-TOP     ///////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+
+    <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+</div>
+<!-- end #footer-top -->
+
+<div id="footer-middle">
+
+    <!-- /// FOOTER-MIDDLE     ////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <div class="row">
+        <div class="span3" id="footer-middle-widget-area-1">
+
+            <div class="widget widget_text">
+
+                <h3 class="widget-title">About us.</h3>
+
+                <div class="textwidget">
+
+                    <p>Nunc in risus faucibus, cursus quam sit amet, interdum lacus. Morbi lacus risus, suscipit at
+                        scelerisque quis, feugiat id nunc. Nullam aliquam mi purus, ut luctus justo malesua.</p>
+
+                    <p class="last">Mauris et viverra nulla.integer malesuada est eget lobortis blandit. In at fringilla
+                        risus.</p>
+
+                </div>
+                <!-- end .textwidget -->
+
+            </div>
+            <!-- end .widget_text -->
+
+        </div>
+        <!-- end .span3 -->
+        <div class="span3" id="footer-middle-widget-area-2">
+
+            <div class="widget widget_recent_entries">
+
+                <h3 class="widget-title">Latest on the blog.</h3>
+
+                <ul>
+                    <li>
+
+                        <img src="_content/blog-post/55x55-1.png" alt="">
+
+                        <p>
+                            <a href="blog.html#">Phasellus viverra quis neque.</a>
+                            <br>
+                            <small>by <a href="blog.html#">Admin</a> on July 7, 2014</small>
+                        </p>
+
+                    </li>
+                    <li>
+
+                        <img src="_content/blog-post/55x55-2.png" alt="">
+
+                        <p>
+                            <a href="blog.html#">Sapien augue, tempus nec.</a>
+                            <br>
+                            <small>by <a href="blog.html#">Admin</a> on June 21, 2014</small>
+                        </p>
+
+                    </li>
+                    <li>
+
+                        <img src="_content/blog-post/55x55-3.png" alt="">
+
+                        <p>
+                            <a href="blog.html#">Duis bibendum orci met error.</a>
+                            <br>
+                            <small>by <a href="blog.html#">Admin</a> on June 18, 2014</small>
+                        </p>
+
+                    </li>
+                </ul>
+
+            </div>
+            <!-- end .widget_recent_entries -->
+
+        </div>
+        <!-- end .span3 -->
+        <div class="span3" id="footer-middle-widget-area-3">
+
+            <div class="widget ewf_widget_social_media">
+
+                <h3 class="widget-title">Social networks.</h3>
+
+                <ul>
+                    <li>
+                        <i class="fa fa-facebook"></i>
+                        <a href="blog.html#">facebook.com/mirror</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-twitter"></i>
+                        <a href="blog.html#">twitter.com/mirror</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-google-plus"></i>
+                        <a href="blog.html#">plus.google.com/mirror</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-vimeo-square"></i>
+                        <a href="blog.html#">vimeo.com/mirror</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-wordpress"></i>
+                        <a href="blog.html#">mirror.wordperss.com</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-youtube-play"></i>
+                        <a href="blog.html#">youtube.com/user/mirror</a>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- end .ewf_widget_social_media -->
+
+        </div>
+        <!-- end .span3 -->
+        <div class="span3" id="footer-middle-widget-area-4">
+
+            <div class="widget ewf_widget_contact_info">
+
+                <h3 class="widget-title">Our address.</h3>
+
+                <ul>
+                    <li>
+                        <i class="ifc-home"></i>
+                        1600 Amphitheatre Parkway, <br>
+                        Mountain View, CA 94043
+                    </li>
+                    <li>
+                        <i class="ifc-phone1"></i>
+                        1800-222-222
+                    </li>
+                    <li>
+                        <i class="ifc-message"></i>
+                        <a href="mailto:#">office@mirror.com</a>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- end .ewf_widget_contact_info -->
+
+            <div class="widget ewf_widget_newsletter">
+
+                <h3 class="widget-title">Subscribe.</h3>
+
+                <form id="newsletter-subscribe-form" action="#">
+                    <fieldset>
+                        <input type="text" name="email" placeholder="email address">
+                        <input class="btn" type="submit" name="submit" value="Go.">
+                    </fieldset>
+                </form>
+
+            </div>
+            <!-- end .widget_newsletter -->
+
+        </div>
+        <!-- end .span3 -->
+    </div>
+    <!-- end .row -->
+
+    <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+</div>
+<!-- end #footer-middle -->
+
+<div id="footer-bottom">
+
+    <!-- /// FOOTER-BOTTOM     ////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <div class="row">
+        <div class="span6" id="footer-bottom-widget-area-1">
+
+            <div class="widget widget_text">
+
+                <div class="textwidget">
+
+                    <p class="last">&copy; 2014 Mirror template. All rights reserved.</p>
+
+                </div>
+                <!-- end .textwidget -->
+
+            </div>
+            <!-- end .widget_text -->
+
+        </div>
+        <!-- end .span6 -->
+        <div class="span6 text-right" id="footer-bottom-widget-area-2">
+
+            <div class="widget widget_pages">
+
+                <ul>
+                    <li class="page_item">
+                        <a href="blog.html#">Home</a>
+                    </li>
+                    <li class="page_item">
+                        <a href="blog.html#">About</a>
+                    </li>
+                    <li class="page_item">
+                        <a href="blog.html#">Services</a>
+                    </li>
+                    <li class="page_item">
+                        <a href="blog.html#">Portfolio</a>
+                    </li>
+                    <li class="page_item">
+                        <a href="blog.html#">Blog</a>
+                    </li>
+                    <li class="page_item">
+                        <a href="blog.html#">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+        <!-- end .span6 -->
+    </div>
+    <!-- end .row -->
+
+    <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+</div>
+<!-- end #footer-bottom -->
+
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+</div>
+<!-- end #footer -->
+
+</div>
+<!-- end #wrap -->
+
+<a id="back-to-top" href="blog.html#">
+    <i class="fa fa-angle-up"></i>
+</a>
+
+<!-- /// jQuery ////////  -->
+<script src="_layout/js/jquery-2.1.1.min.js"></script>
+
+<!-- /// ViewPort ////////  -->
+<script src="_layout/js/viewport/jquery.viewport.js"></script>
+
+<!-- /// Easing ////////  -->
+<script src="_layout/js/easing/jquery.easing.1.3.js"></script>
+
+<!-- /// SimplePlaceholder ////////  -->
+<script src="_layout/js/simpleplaceholder/jquery.simpleplaceholder.js"></script>
+
+<!-- /// Fitvids ////////  -->
+<script src="_layout/js/fitvids/jquery.fitvids.js"></script>
+
+<!-- /// Animations ////////  -->
+<script src="_layout/js/animations/animate.js"></script>
+
+<!-- /// Superfish Menu ////////  -->
+<script src="_layout/js/superfish/hoverIntent.js"></script>
+<script src="_layout/js/superfish/superfish.js"></script>
+
+<!-- /// Revolution Slider ////////  -->
+<script src="_layout/js/revolutionslider/js/jquery.themepunch.plugins.min.js"></script>
+<script src="_layout/js/revolutionslider/js/jquery.themepunch.revolution.min.js"></script>
+
+<!-- /// bxSlider ////////  -->
+<script src="_layout/js/bxslider/jquery.bxslider.min.js"></script>
+
+<!-- /// Magnific Popup ////////  -->
+<script src="_layout/js/magnificpopup/jquery.magnific-popup.min.js"></script>
+
+<!-- /// Isotope ////////  -->
+<script src="_layout/js/isotope/imagesloaded.pkgd.min.js"></script>
+<script src="_layout/js/isotope/isotope.pkgd.min.js"></script>
+
+<!-- /// Parallax ////////  -->
+<script src="_layout/js/parallax/jquery.parallax.min.js"></script>
+
+<!-- /// EasyPieChart ////////  -->
+<script src="_layout/js/easypiechart/jquery.easypiechart.min.js"></script>
+
+<!-- /// YTPlayer ////////  -->
+<script src="_layout/js/itplayer/jquery.mb.YTPlayer.js"></script>
+
+<!-- /// Easy Tabs ////////  -->
+<script src="_layout/js/easytabs/jquery.easytabs.min.js"></script>
+
+<!-- /// Waypoints ////////  -->
+<script src="_layout/js/waypoints/waypoints.min.js"></script>
+
+<!-- /// Form validate ////////  -->
+<script src="_layout/js/jqueryvalidate/jquery.validate.min.js"></script>
+
+<!-- /// Form submit ////////  -->
+<script src="_layout/js/jqueryform/jquery.form.min.js"></script>
+
+<!-- /// gMap ////////  -->
+<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script src="_layout/js/gmap/jquery.gmap.min.js"></script>
+
+<!-- /// Twitter ////////  -->
+<script src="_layout/js/twitter/twitterfetcher.js"></script>
+
+<!-- /// Custom JS ////////  -->
+<script src="_layout/js/plugins.js"></script>
+<script src="_layout/js/scripts.js"></script>
+
+<!-- /// Style Switcher ////////  -->
+<div class="switcher"></div>
+<script src="_layout/js/switcher/jquery_cookie.js"></script>
+<script src="_layout/js/switcher/switcher.js"></script>
+
+</body>
+</html>
