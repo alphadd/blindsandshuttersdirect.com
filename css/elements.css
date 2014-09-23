@@ -41,7 +41,7 @@
     width: 34px;
     height: 34px;
     border-radius: 3px;
-    background-color: #ff1350;
+    background-color: #a7000c;
     color: #fff;
     font-size: 14px;
     line-height: 34px;
@@ -54,8 +54,8 @@
 
 .accordion-item-toggle:hover,
 .accordion-item-toggle.active {
-    border-color: #ff1350;
-    background-color: #ff1350;
+    border-color: #a7000c;
+    background-color: #a7000c;
     color: #fff;
     text-decoration: none;
 }
@@ -63,7 +63,7 @@
 .accordion-item-toggle:hover i,
 .accordion-item-toggle.active i {
     background-color: #fff;
-    color: #ff1350;
+    color: #a7000c;
 }
 
 .accordion-item-content {
@@ -120,7 +120,7 @@
     width: 34px;
     height: 34px;
     border-radius: 3px;
-    background-color: #ff1350;
+    background-color: #a7000c;
     color: #fff;
     font-size: 14px;
     line-height: 34px;
@@ -133,8 +133,8 @@
 
 .toggle-item-toggle:hover,
 .toggle-item-toggle.active {
-    border-color: #ff1350;
-    background-color: #ff1350;
+    border-color: #a7000c;
+    background-color: #a7000c;
     color: #fff;
     text-decoration: none;
 }
@@ -142,7 +142,7 @@
 .toggle-item-toggle:hover i,
 .toggle-item-toggle.active i {
     background-color: #fff;
-    color: #ff1350;
+    color: #a7000c;
 }
 
 .toggle-item-content {
@@ -284,10 +284,10 @@
 .btn {
     display: inline-block;
     padding: 6px 12px;
-    border: 1px solid #ff1350;
+    border: 1px solid #a7000c;
     border-radius: 3px;
     margin: 0 5px 20px 0;
-    background-color: #ff1350;
+    background-color: #a7000c;
     color: #fff;
     line-height: 18px;
     text-decoration: none !important;
@@ -319,24 +319,24 @@ a.btn {
 
 .btn:hover {
     background-color: transparent;
-    color: #ff1350;
+    color: #a7000c;
 }
 
 /* Buton Colors */
 
 .btn-white {
-    border: 1px solid #ff1350;
+    border: 1px solid #a7000c;
     background-color: transparent;
-    color: #ff1350;
+    color: #a7000c;
 }
 
 a.btn-white {
-    color: #ff1350;
+    color: #a7000c;
 }
 
 .btn-white:hover {
-    border-color: #ff1350;
-    background-color: #ff1350;
+    border-color: #a7000c;
+    background-color: #a7000c;
     color: #fff;
 }
 
@@ -766,7 +766,7 @@ ul.arrow li:before {
     padding-bottom: 0;
     margin-top: 60px;
     margin-bottom: 0;
-    background-image: url("../../_content/backgrounds/1920x1400.jpg");
+    background-image: url("../../images/backgrounds/1920x1400.jpg");
 }
 
 #bg-3 {
@@ -781,32 +781,32 @@ ul.arrow li:before {
 #bg-4 {
     padding: 120px 0 100px 0;
     margin-top: 100px;
-    background-image: url("../../_content/backgrounds/1920x1600.jpg");
+    background-image: url("../../images/backgrounds/1920x1600.jpg");
 }
 
 #bg-5 {
     padding: 110px 0 85px 0;
     margin-top: 60px;
-    background-image: url("../../_content/backgrounds/1920x1000-1.jpg");
+    background-image: url("../../images/backgrounds/1920x1000-1.jpg");
 }
 
 #bg-6 {
     padding: 120px 0 100px 0;
     margin-top: 60px;
-    background-image: url("../../_content/backgrounds/1920x1920.jpg");
+    background-image: url("../../images/backgrounds/1920x1920.jpg");
 }
 
 #bg-7 {
     padding: 100px 0 40px 0;
     margin-top: 60px;
-    background-image: url("../../_content/backgrounds/1920x1000-2.jpg");
+    background-image: url("../../images/backgrounds/1920x1000-2.jpg");
     color: #1f1f1f;
 }
 
 #bg-8 {
     padding: 120px 0 90px 0;
     margin-top: 100px;
-    background-image: url("../../_content/backgrounds/1920x3000.jpg");
+    background-image: url("../../images/backgrounds/1920x3000.jpg");
 }
 
 #bg-9 {
@@ -870,7 +870,7 @@ ul.arrow li:before {
     width: 32px;
     height: 32px;
     border-radius: 3px;
-    background-color: #ff1350;
+    background-color: #a7000c;
     color: #fff;
     font-size: 18px;
     line-height: 32px;
@@ -896,7 +896,7 @@ ul.arrow li:before {
     height: 48px;
     border-radius: 3px;
     margin: 0 auto 25px auto;
-    background-color: #ff1350;
+    background-color: #a7000c;
     color: #fff;
     font-size: 26px;
     line-height: 48px;
@@ -925,7 +925,7 @@ ul.arrow li:before {
     border-radius: 3px;
     margin-right: 20px;
     margin-bottom: 20px;
-    background-color: #ff1350;
+    background-color: #a7000c;
     color: #fff;
     font-size: 22px;
     line-height: 36px;
@@ -959,7 +959,7 @@ ul.arrow li:before {
     -webkit-border-radius: 50%;
     border-radius: 50%;
     margin-top: -30px;
-    background-color: #ff1350;
+    background-color: #a7000c;
     background-clip: padding-box; /* 2 */
     color: #fff;
     font-size: 32px;
@@ -1017,7 +1017,7 @@ ul.arrow li:before {
 }
 
 .icon-box-5:hover {
-    background-color: #ff1350;
+    background-color: #a7000c;
 }
 
 .icon-box-5 .icon-box-content {
@@ -1047,7 +1047,7 @@ ul.arrow li:before {
     padding: 5px;
     border-radius: 3px;
     margin: 0 auto 20px auto;
-    background-color: #ff1350;
+    background-color: #a7000c;
     color: #fff;
     font-size: 14px;
     line-height: 14px;
@@ -1066,7 +1066,7 @@ ul.arrow li:before {
 }
 
 .icon-box-6:hover {
-    border-color: #ff1350;
+    border-color: #a7000c;
 }
 
 @media (min-width: 1400px) {
@@ -1158,7 +1158,7 @@ ul.arrow li:before {
     left: 130px;
     display: block;
     width: 75%;
-    border-top: 1px solid #ff1350;
+    border-top: 1px solid #a7000c;
     content: "";
 }
 
@@ -1175,12 +1175,12 @@ ul.arrow li:before {
     width: 120px;
     height: 120px;
     overflow: hidden;
-    border: 1px solid #ff1350;
+    border: 1px solid #a7000c;
     border-radius: 10px;
     outline: 5px solid #fff;
     margin: 0 auto 20px;
     background-color: #fff;
-    color: #ff1350;
+    color: #a7000c;
     font-size: 48px;
     line-height: 120px;
     -webkit-transition: all 0.3s;
@@ -1189,7 +1189,7 @@ ul.arrow li:before {
 
 .horizontal-process-builder li:hover i,
 .horizontal-process-builder li:hover h1 {
-    background-color: #ff1350;
+    background-color: #a7000c;
     color: #fff;
 }
 
@@ -1257,9 +1257,9 @@ ul.arrow li:before {
     width: 45px;
     height: 45px;
     overflow: hidden;
-    border: 1px solid #ff1350;
+    border: 1px solid #a7000c;
     border-radius: 3px;
-    color: #ff1350;
+    color: #a7000c;
     font-size: 22px;
     line-height: 45px;
     text-align: center;
@@ -1274,7 +1274,7 @@ ul.arrow li:before {
 
 .vertical-process-builder li:hover i,
 .vertical-process-builder li:hover h2 {
-    background-color: #ff1350;
+    background-color: #a7000c;
     color: #fff;
 }
 
@@ -1451,7 +1451,7 @@ ul.arrow li:before {
     left: 0;
     height: 100%;
     border-radius: 3px;
-    background-color: #ff1350;
+    background-color: #a7000c;
 }
 
 .progress-bar .progress-bar-outer .progress-bar-inner {
@@ -2078,7 +2078,7 @@ a.yahoo-icon:hover {
     width: 30px;
     height: 30px;
     border-radius: 3px;
-    background-color: #ff1350;
+    background-color: #a7000c;
     color: #fff;
     font-family: 'FontAwesome';
     font-size: 16px;
@@ -2185,7 +2185,7 @@ a.yahoo-icon:hover {
     height: 10px;
     border-radius: 3px;
     margin-left: -5px;
-    background-color: #ff1350;
+    background-color: #a7000c;
     content: "";
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -2589,7 +2589,7 @@ a.yahoo-icon:hover {
     }
 
     .portfolio-item-2 .portfolio-item-description .btn-white:hover {
-        border-color: #ff1350;
+        border-color: #a7000c;
         color: #fff;
     }
 
@@ -2652,7 +2652,7 @@ a.yahoo-icon:hover {
 
 .pagination li a:hover,
 .pagination li.current a {
-    background-color: #ff1350;
+    background-color: #a7000c;
     text-decoration: none;
 }
 
@@ -2683,8 +2683,8 @@ a.yahoo-icon:hover {
 
 .portfolio-filter ul li a:hover,
 .portfolio-filter ul li a.active {
-    border-color: #ff1350;
-    background-color: #ff1350;
+    border-color: #a7000c;
+    background-color: #a7000c;
     color: #fff;
 }
 
@@ -2736,7 +2736,7 @@ a.yahoo-icon:hover {
     padding: 10px 0;
     border-radius: 3px;
     margin: -26px 0 35px 0;
-    background-color: #ff1350;
+    background-color: #a7000c;
     text-align: center;
 }
 
@@ -2761,7 +2761,7 @@ a.yahoo-icon:hover {
     display: inline-block;
     padding: 1px 5px 3px 5px;
     border-radius: 3px;
-    background-color: #ff1350;
+    background-color: #a7000c;
     color: #fff;
     line-height: 14px;
     font-weight: 700;
@@ -2939,7 +2939,7 @@ select.validation-error {
 }
 
 .widget_pages ul li a:hover {
-    background-color: #ff1350;
+    background-color: #a7000c;
     color: #fff;
     text-decoration: none;
 }
@@ -2971,7 +2971,7 @@ select.validation-error {
 }
 
 .widget_archive ul li a:hover {
-    background-color: #ff1350;
+    background-color: #a7000c;
     color: #fff;
     text-decoration: none;
 }
@@ -3009,7 +3009,7 @@ select.validation-error {
 }
 
 .widget_categories ul li a:hover {
-    background-color: #ff1350;
+    background-color: #a7000c;
     color: #fff;
     text-decoration: none;
 }
@@ -3068,7 +3068,7 @@ select.validation-error {
 }
 
 .widget_meta ul li a:hover {
-    background-color: #ff1350;
+    background-color: #a7000c;
     color: #fff;
     text-decoration: none;
 }
@@ -3159,13 +3159,13 @@ select.validation-error {
 .widget_tag_cloud a {
     display: inline-block;
     padding: 2px 10px;
-    border: 1px solid #ff1350;
+    border: 1px solid #a7000c;
     border-radius: 3px;
     margin: 0 12px 12px 0;
 }
 
 .widget_tag_cloud a:hover {
-    background-color: #ff1350;
+    background-color: #a7000c;
     color: #fff;
     text-decoration: none;
 }
@@ -3358,7 +3358,7 @@ select.validation-error {
     border-radius: 3px;
     margin-right: 15px;
     line-height: 20px;
-    background-color: #ff1350;
+    background-color: #a7000c;
     color: #fff;
     text-align: center;
 }
@@ -3415,7 +3415,7 @@ select.validation-error {
     top: 0;
     padding: 5px;
     border-radius: 3px;
-    background-color: #ff1350;
+    background-color: #a7000c;
     color: #fff;
 }
 
@@ -3519,9 +3519,9 @@ select.validation-error {
 .commentlist .reply a {
     display: inline-block;
     padding: 2px 10px;
-    border: 1px solid #ff1350;
+    border: 1px solid #a7000c;
     border-radius: 3px;
-    background-color: #ff1350;
+    background-color: #a7000c;
     color: #fff;
     font-size: 12px;
     font-weight: 700;
@@ -3804,8 +3804,8 @@ select.validation-error {
 
 #commentform #submit {
     width: 100%;
-    border: 1px solid #ff1350;
-    background-color: #ff1350;
+    border: 1px solid #a7000c;
+    background-color: #a7000c;
     color: #fff;
     font-weight: 700;
     text-transform: uppercase;

@@ -171,8 +171,8 @@
                 slideMargin: 20,
                 nextSelector: '#slider-next',
                 prevSelector: '#slider-prev',
-                nextText: '<img src="_layout/images/right-2.png">',
-                prevText: '<img src="_layout/images/left-2.png">'
+                nextText: '<img src="images/right-2.png">',
+                prevText: '<img src="images/left-2.png">'
             });
 
             $('.portfolio-item-slider-3 .slides').bxSlider({
@@ -222,8 +222,8 @@
                 slideMargin: 20,
                 nextSelector: '#slider-next',
                 prevSelector: '#slider-prev',
-                nextText: '<img src="_layout/images/right-2.png">',
-                prevText: '<img src="_layout/images/left-2.png">'
+                nextText: '<img src="images/right-2.png">',
+                prevText: '<img src="images/left-2.png">'
             });
 
         }

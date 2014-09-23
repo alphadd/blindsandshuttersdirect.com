@@ -273,7 +273,7 @@ pre {
 }
 
 .text-highlight {
-    color: #ff1350;
+    color: #a7000c;
 }
 
 .text-uppercase {
@@ -319,7 +319,7 @@ address.last {
 
 a,
 a:visited {
-    color: #ff1350;
+    color: #a7000c;
     text-decoration: none;
 }
 
@@ -417,7 +417,7 @@ table td {
 
 table th {
     border-top: none;
-    background-color: #ff1350;
+    background-color: #a7000c;
     color: #fff;
     font-size: 16px;
     font-weight: 700;
